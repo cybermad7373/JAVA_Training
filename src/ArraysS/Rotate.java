@@ -6,7 +6,7 @@ public class Rotate {
         int n = num.length;
         reverse(num, 0, n-1);
         reverse(num, 0,k-1 );
-        // reverse(num, 0, n-1);
+//        reverse(num, 0, n-1);
 
 
     }

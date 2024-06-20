@@ -17,7 +17,7 @@ public class Anagram {
         
 
 
-        if(Arr1 == Arr2)
+        if(Arrays.equals(Arr1, Arr2))
         {
             return "Is Anagram";
         }else{
@@ -36,5 +36,5 @@ public class Anagram {
         String str2 = "ITNGERE";
         System.out.println(IsAnagram(str1, str2));
     }
-    
+
 }
