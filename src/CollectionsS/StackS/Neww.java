@@ -10,7 +10,8 @@ public class Neww {
         stack.push(3);
         stack.push(4);
         stack.push(5);
-        while(stack.isEmpty())
+        System.out.println(stack.pop()+"\n\n");
+        while(!stack.isEmpty())
         {
             System.out.println(stack.peek());
             stack.pop();
