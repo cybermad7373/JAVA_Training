@@ -17,9 +17,14 @@ public class QCombination {
         if(col == board.length){
             return;
         }
-        board[col] = true;
-        Combination(board, col+1, qpsf+1, tq, ans+"B"+col+ " ");
-        board[col] = false;
+
+        if(board[col] == false)
+        {
+            board[col] = true;
+            Combination(board, col+1, qpsf+1, tq, ans+"B"+col+ " ");
+            board[col] = false;
+        }
+
         Combination(board, col+1, qpsf, tq, ans);
     }
 }
