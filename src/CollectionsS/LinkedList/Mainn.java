@@ -26,6 +26,7 @@ public class Mainn {
         System.out.println();
 
         im.removelast();
+        im.removelast();
         System.out.println("After removing last elemnt");
         im.display();
         System.out.println();
