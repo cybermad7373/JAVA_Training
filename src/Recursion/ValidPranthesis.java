@@ -40,7 +40,7 @@ public class ValidPranthesis {
         {
             Pranthesis(o+1,c,ans+'(',num);
         }
-        if(o>c)
+        if(c<o)
         {
             Pranthesis(o,c+1,ans+')',num);
         }
