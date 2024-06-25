@@ -115,7 +115,7 @@ public class Implementation
         if(this.size == 0)
             throw new Exception("linked list is Empty");
 
-        if(this.size>=1)
+        if(this.size==1)
         {
             this.head = null;
             this.tail = null;
@@ -136,8 +136,8 @@ public class Implementation
             this.tail = null;
             this.size = 0;
         }
-       Node sizem2 = getNodeAt(this.size-1);
-        this.tail = sizem2;
+       Node temp = getNodeAt(this.size-1);
+        this.tail = temp;
         this.tail.next = null;
         this.size--;
     }
@@ -159,7 +159,7 @@ public class Implementation
     }
 
     public void reverse(){
-        Stack<Integer> stack= new Stack<Integer>();
+        Stack<Integer> stack= new Stack<>();
         Node temp = head;
         while(temp!=null)
         {
@@ -173,6 +173,19 @@ public class Implementation
 
             temp = temp.next;
         }
+    }
+
+    public void FindMiddle(IntNode head){
+        Stack<Integer> stack= new Stack<>();
+        IntNode temp = head;
+        int count = 0;
+        while(temp!=null)
+        {
+            stack.push(temp.data);
+            temp = temp.next;
+            count++;
+        }
+        temp = head;
     }
 
 }

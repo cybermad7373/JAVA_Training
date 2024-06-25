@@ -41,6 +41,41 @@ public class Mainn {
         im.display();
         System.out.println();
 
+        System.out.println("After Removing 1st element ");
+        im.removefirst();
+        im.display();
+        System.out.println();
+
+
+        /////////         PALINDROME   [  1 2 3 2 1]
+        Implement_Palindrome ip = new Implement_Palindrome();
+         ip.cadd('h');
+         ip.cadd('e');
+         ip.cadd('l');
+         ip.cadd('e');
+         ip.cadd('h');
+
+         if(ip.checkcharPalindrome()){
+             System.out.println("It is Palindrome");
+         }else{
+             System.out.println("It is Not a Palindrome");
+         }
+
+         IntNode ll = new IntNode(1);
+         ll.next = new IntNode(2);
+         ll.next.next = new IntNode(3);
+         ll.next.next.next = new IntNode(0);
+         ll.next.next.next.next = new IntNode(1);
+
+//        if(ip.checkintPalindrome(ll)){
+//            System.out.println("num ll is Palindrome");
+//        }else{
+//            System.out.println("num ll is Not a Palindrome");
+//        }
+
+
+
+
 
     }
 
