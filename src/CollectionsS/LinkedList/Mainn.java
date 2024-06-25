@@ -36,6 +36,11 @@ public class Mainn {
         im.display();
         System.out.println();
 
+        im.reverse();
+        System.out.println("After Reversing the linked list");
+        im.display();
+        System.out.println();
+
 
     }
 

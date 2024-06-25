@@ -1,5 +1,7 @@
 package CollectionsS.LinkedList;
 
+import java.util.Stack;
+
 public class Implementation
 {
     public class Node
@@ -154,6 +156,23 @@ public class Implementation
         Node np1 = getNodeAt(idx+1);
         nm1.next  = np1;
         this.size--;
+    }
+
+    public void reverse(){
+        Stack<Integer> stack= new Stack<Integer>();
+        Node temp = head;
+        while(temp!=null)
+        {
+            stack.push(temp.data);
+            temp = temp.next;
+        }
+
+        temp = head;
+        while (temp!=null){
+            temp.data = stack.pop();
+
+            temp = temp.next;
+        }
     }
 
 }
