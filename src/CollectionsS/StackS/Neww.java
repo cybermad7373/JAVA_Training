@@ -10,11 +10,29 @@ public class Neww {
         stack.push(3);
         stack.push(4);
         stack.push(5);
-        System.out.println(stack.pop()+"\n\n");
+        System.out.println(stack.pop()+"\n");
         while(!stack.isEmpty())
         {
             System.out.println(stack.peek());
             stack.pop();
         }
+
+        ///////////////////////////////////////
+
+        StackFunctions s = new StackFunctions();
+        s.push(11);
+        s.push(22);
+        s.push(33);
+        s.push(44);
+        s.push(55);
+
+        int res = s.pop();
+        System.out.println("removed element is : "+res);
+        while(! s.isEmpty())
+        {
+            System.out.print(s.peek()+" ");
+            s.pop();
+        }
+
     }
 }
