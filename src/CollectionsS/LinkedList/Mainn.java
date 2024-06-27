@@ -19,6 +19,9 @@ public class Mainn {
         System.out.println("3rd index is "+im.getAt(3));
         System.out.println("3rd index is "+im.getNodeAt(3));
         System.out.println("4th index is "+im.getNodeAt(4));
+        im.InsertAt(4,5000);
+        im.display();
+
 
 
         System.out.println("Before removing any element");

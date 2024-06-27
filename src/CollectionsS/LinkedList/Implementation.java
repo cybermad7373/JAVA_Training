@@ -188,4 +188,8 @@ public class Implementation
         temp = head;
     }
 
+    public void InsertAt(int inx,int data){
+
+    }
+
 }

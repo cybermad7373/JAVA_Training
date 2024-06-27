@@ -1,3 +1,5 @@
+package Recursion;
+
 public class ChkSorted {
     static int flag = 1;
 
@@ -6,6 +8,7 @@ public class ChkSorted {
             Chkk(nums, val - 1);
             if (nums[val] < nums[val - 1]) {
                 flag = 0;
+
             }
         }
     }
