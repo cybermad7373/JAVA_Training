@@ -13,38 +13,34 @@ public class Mainn {
         im.addlast(50);
         System.out.println("first element : "+im.getfirst());
         System.out.println("last element : "+im.getlast());
+        System.out.println("Midele element :"+im.FindMiddle());
         System.out.println("Displaying all elements");
         im.display();
-        System.out.println();
-        System.out.println("3rd index is "+im.getAt(3));
+        System.out.println("\n\n3rd index is "+im.getAt(3));
         System.out.println("3rd index is "+im.getNodeAt(3));
         System.out.println("4th index is "+im.getNodeAt(4));
         im.InsertAt(4,5000);
+        System.out.println("after inserting in 4th pos");
         im.display();
 
 
-
-        System.out.println("Before removing any element");
+        System.out.println("\nBefore removing any element");
         im.display();
-        System.out.println();
 
         im.removelast();
         im.removelast();
-        System.out.println("After removing last elemnt");
+        System.out.println("\nAfter removing last elemnt");
         im.display();
-        System.out.println();
 
         im.removeAt(2);
-        System.out.println("After removing 2 elemnt");
+        System.out.println("\nAfter removing 2 elemnt");
         im.display();
-        System.out.println();
 
         im.reverse();
-        System.out.println("After Reversing the linked list");
+        System.out.println("\nAfter Reversing the linked list");
         im.display();
-        System.out.println();
 
-        System.out.println("After Removing 1st element ");
+        System.out.println("\nAfter Removing 1st element ");
         im.removefirst();
         im.display();
         System.out.println();

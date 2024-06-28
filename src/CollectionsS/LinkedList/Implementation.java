@@ -4,7 +4,7 @@ import java.util.Stack;
 
 public class Implementation
 {
-    public class Node
+    public static class Node
     {
         int data;
         Node next;
@@ -15,9 +15,10 @@ public class Implementation
 
     public void addlast(int item)
     {
-        Node nn =  new Node();
+        Node nn = new Node();
         nn.data = item;
         nn.next = null;
+
 
         if(this.size>=1)
         {
@@ -136,8 +137,7 @@ public class Implementation
             this.tail = null;
             this.size = 0;
         }
-       Node temp = getNodeAt(this.size-1);
-        this.tail = temp;
+        this.tail = getNodeAt(this.size-1);
         this.tail.next = null;
         this.size--;
     }
@@ -175,20 +175,32 @@ public class Implementation
         }
     }
 
-    public void FindMiddle(IntNode head){
+    public int FindMiddle(){
         Stack<Integer> stack= new Stack<>();
-        IntNode temp = head;
-        int count = 0;
+        Node temp = this.head;
+        int count = size/2;
         while(temp!=null)
         {
             stack.push(temp.data);
             temp = temp.next;
             count++;
+            if(count == size/2);
+            {
+                return stack.pop();
+            }
         }
-        temp = head;
+        return -1;
     }
 
-    public void InsertAt(int inx,int data){
+    public void InsertAt(int inx,int item) throws Exception {
+
+        Node pre = getNodeAt(inx);
+        Node post = getNodeAt(inx+1);
+        Node nn = new Node();
+        nn.data = item;
+        pre.next = nn;
+        nn.next = post;
+
 
     }
 
