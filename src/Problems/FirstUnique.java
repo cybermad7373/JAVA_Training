@@ -1,5 +1,8 @@
 package Problems;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class FirstUnique {
     public static void main(String[] args) {
         String str1 = "aabcxghb";
@@ -8,14 +11,30 @@ public class FirstUnique {
         System.out.println("Unique character of 1st string : " + findFirstUnique(str1));
         System.out.println("Unique character of 2nd string : " + findFirstUnique(str2));
 
-        System.out.println("Unique of 1st string : " );
-        first_unique();
-        System.out.println("Unique of 2nd string : " );
-        first_unique();
+        System.out.print("Unique of 1st string : " );
+        first_unique(str1);
+        System.out.print("Unique of 2nd string : " );
+        first_unique(str2);
     }
 
-    public static void first_unique() {
-
+    public static void first_unique(String str) {
+        int freq[] = new int[26];
+        Queue<Character> q = new LinkedList<>();
+        for(int i= 0;i<str.length();i++)
+        {
+            char ch = str.charAt(i);
+            q.add(ch);
+            freq[ch - 'a']++;
+        }
+        while(!q.isEmpty() && freq[q.peek() - 'a']>1){
+            q.remove();
+        }
+        if(q.isEmpty()){
+            System.out.println("-1");
+        }
+        else {
+            System.out.println(q.peek());
+        }
     }
 
     public static char findFirstUnique(String str) {

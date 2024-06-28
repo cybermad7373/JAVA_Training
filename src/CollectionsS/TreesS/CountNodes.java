@@ -54,4 +54,8 @@ public class CountNodes {
         addLeaf(root.right);
     }
 
+    public static void Depth(Node root){
+
+    }
+
 }
