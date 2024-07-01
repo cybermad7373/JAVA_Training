@@ -66,17 +66,17 @@ public class Tree_Traversal {
             postorder(root.left);
         }
 
-    public static void inorder(Node root)
-    {
-        if(root == null){
-            return;
+        public static void inorder(Node root)
+        {
+            if(root == null){
+                return;
+
+            }
+            inorder(root.left);
+            System.out.print(root.data+ " ");
+            inorder(root.right);
 
         }
-        inorder(root.left);
-        System.out.print(root.data+ " ");
-        inorder(root.right);
-
-    }
 
     public static void LevelOrder(Node root){
         Queue<Node> q = new LinkedList<>();

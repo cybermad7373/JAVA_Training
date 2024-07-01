@@ -27,32 +27,31 @@ public class Chk_Identical_Tree {
         root2.right = new Node(3);
         root2.left.left = new Node(4);
         root2.left.right = new Node(5);
-        root2.right.left = new Node(66);
+        root2.right.left = new Node(6);
         root2.right.right = new Node(7);
 
-        check(root1,root2);
-        if(flag){
-            System.out.println("Equal");
+        if(isSymmetricHelper(root1,root2)){
+            System.out.println("Identical");
         }else{
-            System.out.println("Not-Equal");
+            System.out.println("Non Identical");
         }
+
     }
-    static boolean flag = false;
-    public static void check(Node tree1,Node tree2){
+    private static boolean isSymmetricHelper(Node left, Node right) {
+        if (left == null && right == null)
+            return true;
+
+//        if (left == null || right == null)
+//            return false;
+
+
+        boolean flag = false;
+        if(left.data == right.data && isSymmetricHelper(left.left, right.right) && isSymmetricHelper(left.right, right.left))
         {
-            if(tree1.left == null ||tree2.left == null || tree1.right == null || tree2.right == null){
-                return;
-            }
-            if(tree1.left.data == tree2.left.data && tree1.right.data == tree2.right.data)
-            {
-                flag = true;
-            }
-            else{
-                flag = false;
-                return;
-            }
-            check(tree1.left,tree2.left);
-            check(tree2.right,tree2.right);
+            return true;
+        }
+        else{
+            return false;
         }
     }
 
