@@ -17,7 +17,6 @@ public class nextBig {
                 stack.pop();
             }
 
-
             if (stack.isEmpty()) {
                 ans[i] = -1;
             } else {
