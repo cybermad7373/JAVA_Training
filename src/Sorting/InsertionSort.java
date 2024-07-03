@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class InsertionSort {
     public static void main(String[] args) {
         int[] arr = {12,65,98,54,21,32,98,7,54,21,32,65,87};
-        System.out.println(Arrays.toString(isort(arr)));
+        //System.out.println(Arrays.toString(isort(arr)));
     }
     public static int[] isort(int[] arr)
     {
@@ -18,6 +18,6 @@ public class InsertionSort {
                 int temp = arr[i];
             }
         }
-
+return arr;
     }
 }
