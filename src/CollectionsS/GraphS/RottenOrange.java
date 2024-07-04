@@ -8,9 +8,8 @@ public class RottenOrange {
         int[][] vals = {{2,1,1},{1,1,0},{0,1,1}};
 
         ArrayList<ArrayList<Integer>> adj = new ArrayList<>();
-        for(int i = 0;i<vals.length;i++)
-        {
-            for(int j =0;j< vals[i].length;j++){
+        for (int[] val : vals) {
+            for (int j = 0; j < val.length; j++) {
                 adj.add(new ArrayList<>());
             }
 
