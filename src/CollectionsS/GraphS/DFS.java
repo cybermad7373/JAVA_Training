@@ -26,7 +26,22 @@ public class DFS {
         for(int i=0;i<n;i++){
             System.out.print(ans.get(i)+" ");
         }
+
+        dfsprint(0,adj,new boolean[5]);
     }
+
+    public static void dfsprint(int pos,ArrayList<ArrayList<Integer>> adj,boolean[] visited)
+    {
+        if (!visited[pos])
+        {
+            visited[pos] =  true;
+            System.out.println(pos+" ");
+            for(int i =0;i<5;i++){
+                dfsprint(pos+1,adj,visited);
+            }
+        }
+    }
+
     public static void dfs(int node, boolean vis[], ArrayList<ArrayList<Integer>> adj,ArrayList<Integer>ls){
         vis[node]=true;
         ls.add(node);
