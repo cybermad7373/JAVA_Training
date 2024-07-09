@@ -2,9 +2,9 @@ package Knapsack_0_1;
 
 public class MaxProfit {
     public static void main(String[] args) {
-        int[] values = {1, 3, 4, 5};
-        int[] weights = {1, 4, 5, 7};
-        int capacity = 7;
+        int[] values = {100, 50, 30, 25, 15};
+        int[] weights = {10, 5, 2, 1, 1};
+        int capacity = 50;
 
         int maxProfit = max_profit(values, weights, 0, 0, 0, capacity);
         System.out.println(maxProfit);
