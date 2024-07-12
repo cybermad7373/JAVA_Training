@@ -51,7 +51,7 @@ public static int max =0;
 public static void find_circle(Vector<Integer>[] adj,int pos){
         if(adj[pos]!=null)
         {
-            adj[pos]    
+//            adj[pos]
         }
     }
 }

@@ -1,4 +1,4 @@
-package DirectedGraph;
+package CODATHON;
 
 import java.util.*;
 
@@ -75,3 +75,4 @@ public class LargestSumCycle {
         return count;
     }
 }
+
