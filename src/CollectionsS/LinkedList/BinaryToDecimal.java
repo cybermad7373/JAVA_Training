@@ -20,7 +20,7 @@ public class BinaryToDecimal {
         head.next.next = new Node(1);    // 1 0 1   -- > 5
 
         System.out.println("Using Stack  :"+getDecimalValue(head));
-        System.out.println("Using Arrays :"+getDecimalWithArray(head));
+       // System.out.println("Using Arrays :"+getDecimalWithArray(head));
 
 
     }
