@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ArrayLists/ArrayLists.iml" filepath="$PROJECT_DIR$/ArrayLists/ArrayLists.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursion/Back Tracking/Back Tracking.iml" filepath="$PROJECT_DIR$/Recursion/Back Tracking/Back Tracking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BinarySearchTree/BinarySearchTree.iml" filepath="$PROJECT_DIR$/BinarySearchTree/BinarySearchTree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day12_Test/CodingQuestions/CodingQuestions.iml" filepath="$PROJECT_DIR$/Day12_Test/CodingQuestions/CodingQuestions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collections/Collections.iml" filepath="$PROJECT_DIR$/Collections/Collections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataStructureImplementationsandAlgorithms.iml" filepath="$PROJECT_DIR$/DataStructureImplementationsandAlgorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day12_Test/Day12_Test.iml" filepath="$PROJECT_DIR$/Day12_Test/Day12_Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day15StacksQueuesLinkedList/Day15StacksQueuesLinkedList.iml" filepath="$PROJECT_DIR$/Day15StacksQueuesLinkedList/Day15StacksQueuesLinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dynamic_Programming/Dynamic_Programming.iml" filepath="$PROJECT_DIR$/Dynamic_Programming/Dynamic_Programming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dynamic_Programming_/Dynamic_Programming_.iml" filepath="$PROJECT_DIR$/Dynamic_Programming_/Dynamic_Programming_.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Graphs/Graphs.iml" filepath="$PROJECT_DIR$/Graphs/Graphs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Greedy/Greedy.iml" filepath="$PROJECT_DIR$/Greedy/Greedy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hashing/Hashing.iml" filepath="$PROJECT_DIR$/Hashing/Hashing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Heaps/Heaps.iml" filepath="$PROJECT_DIR$/Heaps/Heaps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collections/Queue/LL/LL.iml" filepath="$PROJECT_DIR$/Collections/Queue/LL/LL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinkedList/LinkedList.iml" filepath="$PROJECT_DIR$/LinkedList/LinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collections/Lists/Lists.iml" filepath="$PROJECT_DIR$/Collections/Lists/Lists.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collections/Map/Map.iml" filepath="$PROJECT_DIR$/Collections/Map/Map.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MultiThreading/MultiThreading.iml" filepath="$PROJECT_DIR$/MultiThreading/MultiThreading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice_Problems_Set1/Practice_Problems_Set1.iml" filepath="$PROJECT_DIR$/Practice_Problems_Set1/Practice_Problems_Set1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collections/Queue/Queue.iml" filepath="$PROJECT_DIR$/Collections/Queue/Queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Queues/Queues.iml" filepath="$PROJECT_DIR$/Queues/Queues.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursion/Recursion.iml" filepath="$PROJECT_DIR$/Recursion/Recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Searching/Searching.iml" filepath="$PROJECT_DIR$/Searching/Searching.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SearchingandSorting/SearchingandSorting.iml" filepath="$PROJECT_DIR$/SearchingandSorting/SearchingandSorting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collections/Set/Set.iml" filepath="$PROJECT_DIR$/Collections/Set/Set.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sorting/Sorting.iml" filepath="$PROJECT_DIR$/Sorting/Sorting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Stacks/Stacks.iml" filepath="$PROJECT_DIR$/Stacks/Stacks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test_Day11/Test_Day11.iml" filepath="$PROJECT_DIR$/Test_Day11/Test_Day11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Trees/Trees.iml" filepath="$PROJECT_DIR$/Trees/Trees.iml" />
+    </modules>
+  </component>
+</project>
