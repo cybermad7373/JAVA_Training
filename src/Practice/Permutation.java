@@ -17,7 +17,7 @@ public class Permutation {
 
     public static void rec(List<List<String>> ans, List<String> temp, String[] str, int n) {
         if (temp.size() == n) {
-            ans.add(new ArrayList<>(temp)); // Make a copy of temp and add it to ans
+            ans.add(new ArrayList<>(temp));
             return;
         }
         for (String ch : str) {
