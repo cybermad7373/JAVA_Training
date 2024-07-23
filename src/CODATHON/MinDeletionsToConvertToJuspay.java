@@ -14,7 +14,7 @@ public class MinDeletionsToConvertToJuspay {
             dp[i][0] = i; // Delete all characters in s to match an empty string
         }
         for (int j = 0; j <= m; j++) {
-            dp[0][j] = j; // Delete all characters in an empty string to match target[0...j-1]
+            dp[0][j] = j; 
         }
 
         // Fill the dp array
