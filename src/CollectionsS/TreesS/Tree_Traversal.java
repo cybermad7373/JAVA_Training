@@ -50,7 +50,7 @@ public class Tree_Traversal {
             if(root == null){
                 return;
         }
-            System.out.print(root.data+ " ");
+                System.out.print(root.data+ " ");
             preorder(root.left);
             preorder(root.right);
         }

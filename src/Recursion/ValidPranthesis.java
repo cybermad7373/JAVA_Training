@@ -47,6 +47,6 @@ public class ValidPranthesis {
 
     }
     public static void main(String[] args) {
-        Pranthesis(0,0,"",3);
+        Pranthesis(0,0,"",5);
     }
 }
